@@ -1,0 +1,14 @@
+{
+  "public": true,
+  "headers": [
+    {
+      "source": "/song/(.*)",
+      "headers": [
+        {
+          "key": "Content-Type",
+          "value": "audio/mpeg"
+        }
+      ]
+    }
+  ]
+}
